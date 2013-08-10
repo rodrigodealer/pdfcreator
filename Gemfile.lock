@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (0.6.1)
+      actionpack (>= 0.9.5)
+    actionpack (1.4.0)
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activemodel (3.0.0)
+      activesupport (= 3.0.0)
+      builder (~> 2.1.2)
+      i18n (~> 0.4.1)
+    activerecord (3.0.0)
+      activemodel (= 3.0.0)
+      activesupport (= 3.0.0)
+      arel (~> 1.0.0)
+      tzinfo (~> 0.3.23)
+    activesupport (3.0.0)
+    arel (1.0.1)
+      activesupport (~> 3.0.0)
+    builder (2.1.2)
+    i18n (0.4.2)
+    puma (2.5.0)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rails (0.9.5)
+      actionmailer (>= 0.6.1)
+      actionpack (>= 1.4.0)
+      activerecord (>= 1.6.0)
+      rake (>= 0.4.15)
+    rake (10.1.0)
+    sinatra (1.4.3)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    tilt (1.4.1)
+    tzinfo (0.3.37)
+    wicked_pdf (0.9.6)
+      rails
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active_support
+  puma
+  sinatra
+  wicked_pdf
