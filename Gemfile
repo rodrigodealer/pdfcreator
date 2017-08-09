@@ -2,5 +2,6 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'puma'
+gem 'tilt'
 gem 'wicked_pdf'
-gem 'active_support'
+gem 'activesupport', '~> 3.0'
