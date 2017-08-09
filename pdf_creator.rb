@@ -7,6 +7,10 @@ get '/:file' do
   WickedPdf.new.pdf_from_string(params[:file])
 end
 
+get '/healthcheck' do
+  'WORKING'
+end
+
 post '/generate' do
   content_type 'application/pdf'
   WickedPdf.new.pdf_from_string(params[:file])
